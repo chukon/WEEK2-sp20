@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         //clears txtName
         //hide keyboard
         btnSubmit.setOnClickListener{
-            val userinput = "Hello " + txtName.text.toString() + " to CIS245!"
+            val userinput = "Hello Again " + txtName.text.toString() + " to CIS245!"
             Show.setText(userinput)
             txtName.setText("")
             hideKeyboard() //Need to create function to clear keyboard
